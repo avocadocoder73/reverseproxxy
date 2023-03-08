@@ -1,0 +1,24 @@
+{
+  "name": "reverseproxxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "big.js": "^6.2.1",
+    "cors": "^2.8.5",
+    "cron": "^2.1.0",
+    "express": "^4.18.1",
+    "firebase": "^9.9.1",
+    "node-cron": "^3.0.1",
+    "twit": "^2.2.11",
+    "twitter-api-sdk": "^1.1.0"
+  }
+}
