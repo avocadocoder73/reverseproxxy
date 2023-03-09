@@ -39,14 +39,14 @@ const tweet =  await client.tweets.findTweetById(obj, {"expansions": "author_id"
 
 app.get('/', (req,res) => res.send(tweet))
 
-
 })
 
 
 
 
 
-app.listen(4000, () => {
+
+app.listen(3000, () => {
 
 
     console.log("server is running")
