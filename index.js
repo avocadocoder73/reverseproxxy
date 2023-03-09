@@ -37,7 +37,11 @@ const tweet =  await client.tweets.findTweetById(obj, {"expansions": "author_id"
 
 
 
-app.get('/', (req,res) => res.send(tweet))
+app.get('/', function (req,res) {
+
+res.send({tweet})
+
+});
 
 })
 
